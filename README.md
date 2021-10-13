@@ -54,3 +54,6 @@ Deploy the page to a new Netlify-site.
 Ensure that all HTML is semantic and have a purpose. This lesson is to be cloned and when completed pushed into your git repository.
 
 Validate your pages using the validator: [Nu Html Checker](https://validator.w3.org/nu/)
+
+
+https://zen-visvesvaraya-850b84.netlify.app
