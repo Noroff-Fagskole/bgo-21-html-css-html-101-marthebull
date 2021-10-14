@@ -1,16 +1,24 @@
+@font-face {
+    font-family: roboto;
+    src: url(https://fonts.google.com/specimen/Roboto?query=roboto#pairings);
+}
+
+
+
 #images {
     background-color: beige;
     color: coral;
 }
 
 h1 {
-    color: blue;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(0, 0, 168);
+    font-family: "roboto", Arial, Helvetica, sans-serif;
 }
  h2 {
      text-align: center;
-     font-family: monospace;
+     font-family: "roboto", Arial, Helvetica, sans-serif;
      padding-block: 100px;
+     font-weight: lighter;
  }
 
  img {
@@ -18,16 +26,16 @@ h1 {
  }
 
  header {
-     background-color: darkgoldenrod;
+     background-color: rgb(255, 183, 124);
      color: blue;
  }
 
  section#info {
-     background-color: chartreuse;
+     background-color: rgb(161, 135, 96);
  }
 
  footer {
-     background-color: cornflowerblue;
+     background-color: rgb(170, 176, 189);
      color: crimson;
  }
  
@@ -65,6 +73,64 @@ button:hover {
     background-color: indianred;
 }
 
-img:hover {
-    rotate: left;
+p::first-letter {
+    color: lawngreen;
+    font-size: 2em;
+}
+
+.big {
+    font-size: 2em;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.blue {
+    color: blue;
+}
+
+a#cartoon {
+    color: rgb(186, 174, 255);
+    font-size: 1.5em;
+
+}
+
+a#cartoon:hover {
+    color: cyan;
+}
+
+li a:hover {
+    color: darkorange;
+}
+
+a#heading {
+    font-family: "roboto", 'Times New Roman', Times, serif;
+    font-size: 4em;
+    color: rgb(197, 173, 255);
+}
+
+p {
+    font-family: "roboto", sans-serif;
+    font-size: 12px;
+}
+
+a#heading:hover {
+    font-size: 5rem;
+    color: wheat;
+}
+
+ul {
+    padding-block: 50px;
+}
+
+section, footer, header {
+    margin: 20px;
+    
+}
+h3 {
+    font-family: monospace;
+    color: thistle;
+    font-size: 3rem;
+    margin-left: 40px;
 }
