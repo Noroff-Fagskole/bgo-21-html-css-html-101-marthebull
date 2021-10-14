@@ -1,3 +1,70 @@
-body {
-    background: burlywood;
+#images {
+    background-color: beige;
+    color: coral;
+}
+
+h1 {
+    color: blue;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ h2 {
+     text-align: center;
+     font-family: monospace;
+     padding-block: 100px;
+ }
+
+ img {
+     margin: 30px;
+ }
+
+ header {
+     background-color: darkgoldenrod;
+     color: blue;
+ }
+
+ section#info {
+     background-color: chartreuse;
+ }
+
+ footer {
+     background-color: cornflowerblue;
+     color: crimson;
+ }
+ 
+section#button {
+    background-color: darkgray;
+    
+}
+
+button {
+    margin: 100px;
+    color: rgb(235, 221, 204);
+    background-color: darksalmon;
+}
+
+h3 {
+    padding-block: 30px;
+}
+
+nav {
+    font-family: fantasy;
+}
+
+h1:hover {
+    color: deeppink;
+}
+
+ul li:hover {
+    color: fuchsia;
+    font-family: monospace;
+    font-size: 2em;
+}
+
+button:hover {
+    color: green;
+    background-color: indianred;
+}
+
+img:hover {
+    rotate: left;
 }
